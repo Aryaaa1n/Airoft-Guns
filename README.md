@@ -1,5 +1,5 @@
 # E-Commerce Store For Airoft-Guns
-# You Can Buy All Sorts of Weapon From our Website
+
 
 
 
