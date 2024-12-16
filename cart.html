@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Airsoft Pro</h1>
+            <nav>
+                <ul>
+                     <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+					<li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Cart Section -->
+    <section class="cart">
+        <div class="container">
+            <h2>Your Shopping Cart</h2>
+
+            <!-- Cart Table -->
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                
+                    
+
+                    <!-- Cart Item 2 -->
+                    <tr>
+                        <td>
+                            <img src="https://c0.wallpaperflare.com/preview/795/335/656/airsoft-airsoftguns-replica-asg-asg.jpg" alt="M4 AEG Rifle">
+                            <span>M4 AEG Rifle</span>
+                        </td>
+                        <td>$150.00</td>
+                        <td>
+                            <input type="number" value="1" min="1">
+                        </td>
+                        <td>$150.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+
+                    <!-- Cart Item 3 -->
+                    <tr>
+                        <td>
+                            <img src="https://c4.wallpaperflare.com/wallpaper/181/1000/47/weapons-sniper-rifle-heavy-barrett-m82-wallpaper-preview.jpg" alt="Sniper Airsoft Rifle">
+                            <span>Sniper Airsoft Rifle</span>
+                        </td>
+                        <td>$180.00</td>
+                        <td>
+                            <input type="number" value="1" min="1">
+                        </td>
+                        <td>$180.00</td>
+                        <td><button class="remove-btn">Remove</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <!-- Cart Total -->
+            <div class="cart-total">
+                <h3>Total: $450.00</h3>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Airsoft Pro | All Rights Reserved</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

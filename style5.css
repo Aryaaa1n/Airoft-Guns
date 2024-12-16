@@ -1,0 +1,105 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111; /* Updated to black */
+    color: #fff; /* Change text color to white for contrast */
+    line-height: 1.6;
+    font-size: 16px;
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+    background-color: #fff; /* Keeps the form background white */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 1em;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 15px;
+    font-size: 1em;
+    color: #333;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    border-color: #f0c14b;
+    outline: none;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #f0c14b;
+    color: #111;
+    font-size: 1.1em;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #e1a01a;
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.footer p {
+    color: #fff; /* Updated text color to white */
+}
+
+.footer a {
+    color: #f0c14b;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #e1a01a;
+}
